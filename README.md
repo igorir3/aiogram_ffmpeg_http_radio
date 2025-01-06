@@ -30,3 +30,17 @@ is to have the following entries in the ID3 tags:
 TIT2, TPE1, TALB and the album cover in jpg format (Or png, other formats are likely to cause errors)
 
 To listen, go to http://yourIP:25565/stream (change the port 25565 if you changed it.)
+
+Commands for telegram control:
+
+/PLAY - If playback has been stopped, it continues. If you enter a number after the command, it counts it as an ID and switches to the corresponding song (ID is the sequence number of the song in the folder starting from 0)
+
+/UPDATE - Updates the list of songs if you enter the path or folder name after it (the path or names should not contain spaces, and if you enter the folder name, the folder should be in media), then it will scan this folder specifically and use it from now on
+
+/STOP - Stops playback. It also "resets" the song counter.
+
+/PAUSE - Stops playback
+
+/NEXT - Skip song
+
+/SHUFFLE - Shuffles the list of songs
