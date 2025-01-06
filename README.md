@@ -27,6 +27,6 @@ FIRST you launch server.py , after main.py
 
 The requirement for the songs
 is to have the following entries in the ID3 tags:
-TIT2, TPE1, TALB and the album cover in jpg format (Or png, the rest are likely to cause errors)
+TIT2, TPE1, TALB and the album cover in jpg format (Or png, other formats are likely to cause errors)
 
 To listen, go to http://yourIP:25565/stream (change the port 25565 if you changed it.)
